@@ -23,4 +23,9 @@ nav{
 }
 .nav-left ul li{
     list-style: none;
+    display: inline-block;
+}
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
 }
