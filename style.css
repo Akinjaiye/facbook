@@ -12,6 +12,9 @@ nav{
     justify-content: space-between;
     background: #1876f2;
     padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .logo{
     width: 160px;
@@ -80,7 +83,6 @@ nav{
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    height: 100vh;
 }
 .right-sidebar{
     background: #cbdffa;
@@ -88,7 +90,6 @@ nav{
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    height: 100vh;
 }
 .main-content{
     flex-basis: 47%;
